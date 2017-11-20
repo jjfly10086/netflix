@@ -1,0 +1,13 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: service-consumer
+  output:
+    ansi:
+      enabled: always
+      #控制台彩色输出
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
